@@ -1,0 +1,13 @@
+{
+  "presets": ["env", "flow"],
+  "plugins": [
+      "babel-plugin-transform-runtime",
+      "babel-plugin-transform-class-properties",
+      "babel-plugin-transform-object-rest-spread"
+  ],
+  "env": {
+    "production": {
+      "presets": ["babili"]
+    }
+  }
+}
