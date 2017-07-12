@@ -1,0 +1,12 @@
+[include]
+
+[ignore]
+dist/*
+../node_modules/*
+
+[libs]
+
+[options]
+module.system=node
+suppress_comment= \\(.\\|\n\\)*\\$FlowIgnore
+unsafe.enable_getters_and_setters=true

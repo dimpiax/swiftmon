@@ -1,0 +1,48 @@
+{
+  "name": "swiftmon",
+  "version": "1.0.0",
+  "description": "swiftmon restarts your swift application in case of any file change",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production babel index.js -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dimpiax/swiftmon.git"
+  },
+  "keywords": [
+    "node",
+    "swift",
+    "swiftpm"
+  ],
+  "author": "Dima Pilipenko <dimpiax@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimpiax/swiftmon/issues"
+  },
+  "homepage": "https://github.com/dimpiax/swiftmon#readme",
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.24.1",
+    "babel-plugin-transform-flow-strip-types": "6.22.0",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-flow": "6.23.0",
+    "babili": "0.1.4",
+    "eslint": "4.2.0",
+    "eslint-config-airbnb-base": "11.2.0",
+    "eslint-plugin-flowtype": "2.35.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-security": "1.4.0",
+    "flow-bin": "0.49.1",
+    "flow-remove-types": "1.2.1",
+    "linter-flow": "0.1.4",
+    "nodemon": "1.11.0"
+  },
+  "dependencies": {
+    "babel-plugin-transform-runtime": "6.23.0"
+  }
+}
