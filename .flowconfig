@@ -1,6 +1,8 @@
 [include]
 
 [ignore]
+lib/*
+bin/*
 dist/*
 ../node_modules/*
 

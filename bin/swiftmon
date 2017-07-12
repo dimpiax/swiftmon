@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const colors = require('colors/safe')
+
+const p = require('../package.json')
+
+console.log(colors.yellow(`[swiftmon] ${p.version}`))
+
+require('../lib').start()
