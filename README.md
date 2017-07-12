@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/badge/version-0.3.1-brightgreen.svg)]()
+[![Version](https://img.shields.io/badge/version-0.2.2-brightgreen.svg)]()
 
 # swiftmon
 

@@ -1,6 +1,6 @@
 {
   "name": "swiftmon",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "swiftmon restarts your swift application in case of any file change",
   "main": "index.js",
   "bin": {
