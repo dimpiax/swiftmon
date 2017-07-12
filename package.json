@@ -1,8 +1,12 @@
 {
   "name": "swiftmon",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "swiftmon restarts your swift application in case of any file change",
   "main": "index.js",
+  "bin": {
+    "swiftmon": "node $npm_package_main"
+  },
+  "preferGlobal": "true",
   "scripts": {
     "build": "NODE_ENV=production babel index.js -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
